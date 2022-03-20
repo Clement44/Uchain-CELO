@@ -11,7 +11,7 @@ contract CarbonCredit is ERC20, Ownable {
         uint256 indexed value,
         string ifpsHashOfCarbonCreditCertificate
     );
-
+    token = await CarbonCredit.new("Uchains", "cCH")
     constructor(string memory _name, string memory _symbol)
         ERC20(_name, _symbol)
     {}
