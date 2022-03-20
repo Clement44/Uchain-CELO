@@ -6,7 +6,7 @@ A an ERC20 token backed by carbon credits - allows certified issuance, transfer 
 
 ![](docs/Uchains-diagram/Technical_architecture.png)
 
-1. The supplier purshase carbon credit for the CO2 he captured by a Climate Impact Project.
+1. The supplier purchase carbon credit for the CO2 he captured by a Climate Impact Project.
 1. An auditor company like VERRA will control that this number is correct ans upload a certificate using IPFS deltails like PINATA
 1. Uchains use a smart contract to call `depositCarbonCreditsFromCertificate` function on the carbon credit ERC20 token with the value of the certificate received.
 1. The supplier have the certificate in his CELO Address and everybody can see it.
