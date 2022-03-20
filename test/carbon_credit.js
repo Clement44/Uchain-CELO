@@ -12,7 +12,7 @@ contract("CarbonCredit", function (accounts) {
   beforeEach(async () => {
     owner = accounts[0];
     notOwner = accounts[1];
-    token = await CarbonCredit.new("Uchains", "cCH");
+    token = await CarbonCredit.new("Uchains", "cCHAIN");
   });
 
   it("should have the expected state on deployment", async () => {
